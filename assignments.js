@@ -7,3 +7,6 @@ console.log(country);
 console.log(continent);
 console.log(population);
 console.log(states);
+console.log(typeof states);
+
+// Variable Convention
