@@ -9,4 +9,14 @@ console.log(population);
 console.log(states);
 console.log(typeof states);
 
-// Variable Convention
+console.log(typeof "Nigeria");
+console.log(typeof "Africa");
+console.log(typeof "population");
+console.log(typeof "states");
+
+console.log(typeof true);
+console.log(typeof javascriptIsFun);
+console.log(typeof 66);
+console.log(typeof "Biodun");
+
+javascriptIsFun = "YES";
