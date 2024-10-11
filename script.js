@@ -69,3 +69,7 @@ x /= 2; // x = x / 2 = 70
 x++; // x = x + 1 = 71
 x--; // x = x - 1 = 70
 console.log(x);
+
+// COMPARISON OPERATORS
+console.log(typeof ageKris < ageRachael);
+console.log(ageKris > ageRachael);
