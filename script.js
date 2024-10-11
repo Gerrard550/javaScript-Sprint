@@ -38,7 +38,10 @@
 // year = 1986;
 // console.log(typeof year);
 
-const ageKris = 2024 - 1960;
-const ageRachael = 2024 - 1980;
+const now = 2024;
+const ageKris = now - 1960;
+const ageRachael = now - 1980;
+const ageBiodun = now - 1977;
 console.log(ageKris);
 console.log(ageRachael);
+console.log(ageKris, ageRachael, ageBiodun);
