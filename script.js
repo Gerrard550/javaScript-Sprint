@@ -38,6 +38,7 @@
 // year = 1986;
 // console.log(typeof year);
 
+// MATH OPERATORS
 const now = 2024;
 const ageKris = now - 1960;
 const ageRachael = now - 1980;
@@ -45,3 +46,26 @@ const ageBiodun = now - 1977;
 console.log(ageKris);
 console.log(ageRachael);
 console.log(ageKris, ageRachael, ageBiodun);
+
+console.log(ageBiodun / 3, ageKris * 2, ageRachael / 4);
+
+const ageIshola = ageKris * 2;
+const ageAgoro = ageRachael / 4;
+console.log(ageIshola, ageAgoro);
+
+const ageGerrard = ageIshola + ageAgoro;
+console.log(ageGerrard);
+
+const firstName = "Luis";
+const middleName = "Biodun";
+const lastName = "Diaz";
+console.log(firstName + " " + middleName + " " + lastName);
+
+// ASSIGNMENT OPERATORS
+let x = 10 + 5; //15
+x += 20; // x = x + 20 = 35
+x *= 4; // x = x * 4 = 140
+x /= 2; // x = x / 2 = 70
+x++; // x = x + 1 = 71
+x--; // x = x - 1 = 70
+console.log(x);
