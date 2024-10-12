@@ -1,8 +1,8 @@
 // DATA 1
-let markWeight = 78;
-let markheight = 1.69;
-let johnweight = 92;
-let johnheight = 1.95;
+const markWeight = 78;
+const markheight = 1.69;
+const johnweight = 92;
+const johnheight = 1.95;
 
 console.log(markWeight);
 console.log(markheight);
@@ -14,3 +14,6 @@ let johmBMI = 92 / (1.95 * 1.95);
 
 console.log(markBMI);
 console.log(johmBMI);
+
+markhigherBMI = markBMI > johmBMI;
+console.log(markhigherBMI);
