@@ -56,20 +56,25 @@ console.log(ageIshola, ageAgoro);
 const ageGerrard = ageIshola + ageAgoro;
 console.log(ageGerrard);
 
-const firstName = "Luis";
-const middleName = "Biodun";
-const lastName = "Diaz";
-console.log(firstName + " " + middleName + " " + lastName);
+// // COMPARISON OPERATORS
+// console.log(typeof ageKris < ageRachael);
+// console.log(ageKris > ageRachael);
 
-// ASSIGNMENT OPERATORS
-let x = 10 + 5; //15
-x += 20; // x = x + 20 = 35
-x *= 4; // x = x * 4 = 140
-x /= 2; // x = x / 2 = 70
-x++; // x = x + 1 = 71
-x--; // x = x - 1 = 70
-console.log(x);
+// STRINGS AND TEMPLATE LITERALS
+const firstName = "Steven";
+const job = "footbller";
+const birthyear = 2000;
+const year = 2024;
 
-// COMPARISON OPERATORS
-console.log(typeof ageKris < ageRachael);
-console.log(ageKris > ageRachael);
+const Steven =
+  "I'm " + firstName + ", a " + (year - birthYear) + " years old " + job + "!";
+console.log(Steven);
+
+const StevenNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
+console.log(StevenNew);
+console.log(`Just a regular string...`);
+console.log(
+  "String with \n\
+ multiple \n\
+"
+);

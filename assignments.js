@@ -23,3 +23,14 @@ console.log(johmBMI);
 markhigherBMI = markBMI > johmBMI;
 console.log(markhigherBMI);
 console.log(markBMI, johmBMI, markhigherBMI);
+
+// MUSA
+const occupation = "CryptoCurrency";
+const nickName = "Musadgreat1";
+const tokenMining = "hamsterKombat";
+const airdropStart = "2018";
+const airdropYear = "2024";
+const Musadgreat1 = `${nickName} Is a ${occupation} Lord who has been trading ${tokenMining} for ${
+  airdropYear - airdropStart
+} years.`;
+console.log(Musadgreat1);
