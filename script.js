@@ -93,21 +93,36 @@
 // "
 // );
 
-const age = 14;
-if (age >= 18) {
-  console.log(`Segun can start driving license 🚗`);
-} else {
-  const yearsLeft = 18 - age;
-  console.log(`Segun is too young. Wait another ${yearsLeft} years 😥`);
-}
+// const age = 14;
+// if (age >= 18) {
+//   console.log(`Segun can start driving license 🚗`);
+// } else {
+//   const yearsLeft = 18 - age;
+//   console.log(`Segun is too young. Wait another ${yearsLeft} years 😥`);
+// }
 
-const birthYear = 2014;
+// const birthYear = 2014;
 
-let century;
-if (birthYear <= 2000) {
-  century = 20;
-} else {
-  century = 21;
-}
+// let century;
+// if (birthYear <= 2000) {
+//   century = 20;
+// } else {
+//   century = 21;
+// }
 
-console.log(century);
+// console.log(century);
+
+// TYPE CONVERSION AND COERCION
+
+// type conversion
+const inputYear = "1991";
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 18);
+
+console.log(Number("James"));
+console.log(typeof NaN);
+
+console.log(String(23), 23);
+
+// type coercion
+console.log('I am ' + 23 + 'years old';)
