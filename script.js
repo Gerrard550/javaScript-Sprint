@@ -66,15 +66,27 @@ const job = "footbller";
 const birthyear = 2000;
 const year = 2024;
 
-const Steven =
-  "I'm " + firstName + ", a " + (year - birthYear) + " years old " + job + "!";
-console.log(Steven);
+// const StevenNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
+// console.log(StevenNew);
+// console.log(`Just a regular string...`);
+// console.log(
+//   "String with \n\
+//  multiple \n\
+// "
+// );
 
-const StevenNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
-console.log(StevenNew);
-console.log(`Just a regular string...`);
-console.log(
-  "String with \n\
- multiple \n\
-"
-);
+const age = 14;
+if (age >= 18) {
+  console.log(`Segun can start driving license 🚗`);
+} else {
+  const yearsLeft = 18 - age;
+  console.log(`Segun is too young. Wait another ${yearsLeft} years 😥`);
+}
+
+const birthYear = 1998;
+
+if (birthYear <= 2000) {
+  let century = 20;
+} else {
+  let century = 21;
+}
