@@ -39,32 +39,50 @@
 // console.log(typeof year);
 
 // MATH OPERATORS
-const now = 2024;
-const ageKris = now - 1960;
-const ageRachael = now - 1980;
-const ageBiodun = now - 1977;
-console.log(ageKris);
-console.log(ageRachael);
-console.log(ageKris, ageRachael, ageBiodun);
+// const now = 2024;
+// const ageKris = now - 1960;
+// const ageRachael = now - 1980;
+// const ageBiodun = now - 1977;
+// console.log(ageKris);
+// console.log(ageRachael);
+// console.log(ageKris, ageRachael, ageBiodun);
 
-console.log(ageBiodun / 3, ageKris * 2, ageRachael / 4);
+// console.log(ageBiodun / 3, ageKris * 2, ageRachael / 4);
 
-const ageIshola = ageKris * 2;
-const ageAgoro = ageRachael / 4;
-console.log(ageIshola, ageAgoro);
+// const ageIshola = ageKris * 2;
+// const ageAgoro = ageRachael / 4;
+// console.log(ageIshola, ageAgoro);
 
-const ageGerrard = ageIshola + ageAgoro;
-console.log(ageGerrard);
+// const ageGerrard = ageIshola + ageAgoro;
+// console.log(ageGerrard);
+
+// const firstName = "Luis";
+// const middleName = "Biodun";
+// const lastName = "Diaz";
+// console.log(firstName + " " + middleName + " " + lastName);
+
+// // ASSIGNMENT OPERATORS
+// let x = 10 + 5; //15
+// x += 20; // x = x + 20 = 35
+// x *= 4; // x = x * 4 = 140
+// x /= 2; // x = x / 2 = 70
+// x++; // x = x + 1 = 71
+// x--; // x = x - 1 = 70
+// console.log(x);
 
 // // COMPARISON OPERATORS
 // console.log(typeof ageKris < ageRachael);
 // console.log(ageKris > ageRachael);
 
 // STRINGS AND TEMPLATE LITERALS
-const firstName = "Steven";
-const job = "footbller";
-const birthyear = 2000;
-const year = 2024;
+// const firstName = "Steven";
+// const job = "driver";
+// const birthYear = 2000;
+// const year = 2024;
+
+// const Steven =
+//   "I'm " + firstName + ", a " + (year - birthYear) + " years old " + job + "!";
+// console.log(Steven);
 
 // const StevenNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
 // console.log(StevenNew);
@@ -83,10 +101,13 @@ if (age >= 18) {
   console.log(`Segun is too young. Wait another ${yearsLeft} years 😥`);
 }
 
-const birthYear = 1998;
+const birthYear = 2014;
 
+let century;
 if (birthYear <= 2000) {
-  let century = 20;
+  century = 20;
 } else {
-  let century = 21;
+  century = 21;
 }
+
+console.log(century);
