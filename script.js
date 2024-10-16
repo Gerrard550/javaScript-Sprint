@@ -161,8 +161,12 @@
 // }
 
 // Equality Operators
+// Strict equality Operator
 const age = 18;
-if (age === 18) console.log("You are now an adult");
+if (age === 18) console.log("You are now an adult(strict)");
 
 // Loose equality Operator
-if (age === 18) console.log("You are now an adult");
+if (age == 18) console.log("You are now an adult(loose)");
+
+const favourite = prompt("What's your favourite colour?");
+console.log(favourite);
