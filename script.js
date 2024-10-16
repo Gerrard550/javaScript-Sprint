@@ -168,5 +168,16 @@ if (age === 18) console.log("You are now an adult(strict)");
 // Loose equality Operator
 if (age == 18) console.log("You are now an adult(loose)");
 
-const favourite = prompt("What's your favourite colour?");
+const favourite = Number(prompt("What's your favourite number?"));
 console.log(favourite);
+console.log(typeof favourite);
+
+if (favourite === 77) {
+  console.log("Beautiful!!! 77 is a strong number");
+} else if (favourite === 70) {
+  console.log("70 is equally a strong number");
+} else if ((favourite = 7)) {
+  console.log("7 is the strongest number");
+} else {
+  console.log("Number is invalid or not strong enough");
+}
