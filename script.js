@@ -163,3 +163,6 @@
 // Equality Operators
 const age = 18;
 if (age === 18) console.log("You are now an adult");
+
+// Loose equality Operator
+if (age === 18) console.log("You are now an adult");
