@@ -36,9 +36,9 @@ let johnheight = 1.95;
 // } years.`;
 // console.log(Musadgreat1);
 
-let weight = NaN;
-if (weight) {
-  console.log("YAY Weight is defined");
-} else {
-  console.log("Weight is UNDEFINED");
-}
+// let weight = NaN;
+// if (weight) {
+//   console.log("YAY Weight is defined");
+// } else {
+//   console.log("Weight is UNDEFINED");
+// }

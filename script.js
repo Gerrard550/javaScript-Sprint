@@ -160,24 +160,35 @@
 //   console.log("Height is UNDEFINED");
 // }
 
-// Equality Operators
-// Strict equality Operator
-const age = 18;
-if (age === 18) console.log("You are now an adult(strict)");
+// // Equality Operators
+// // Strict equality Operator
+// const age = 18;
+// if (age === 18) console.log("You are now an adult(strict)");
 
-// Loose equality Operator
-if (age == 18) console.log("You are now an adult(loose)");
+// // Loose equality Operator
+// if (age == 18) console.log("You are now an adult(loose)");
 
-const favourite = Number(prompt("What's your favourite number?"));
-console.log(favourite);
-console.log(typeof favourite);
+// const favourite = Number(prompt("What's your favourite number?"));
+// console.log(favourite);
+// console.log(typeof favourite);
 
-if (favourite === 77) {
-  console.log("Beautiful!!! 77 is a strong number");
-} else if (favourite === 70) {
-  console.log("70 is equally a strong number");
-} else if ((favourite = 7)) {
-  console.log("7 is the strongest number");
-} else {
-  console.log("Number is invalid or not strong enough");
-}
+// if (favourite === 77) {
+//   //77 === 77
+//   console.log("Beautiful!!! 77 is a strong number");
+// } else if (favourite === 70) {
+//   console.log("70 is equally a strong number");
+// } else if (favourite === 7) {
+//   console.log("7 is the strongest number");
+// } else {
+//   console.log("Number is invalid or not strong enough");
+// }
+
+// if (favourite !== 77) console.log("Why not 77?");
+
+// Boolean  Logic
+const hasDriversLicense = true; //A
+const hasGoodVision = false; // B
+
+console.log(hasDriversLicense && hasGoodVision);
+
+console.log(hasDriversLicense || hasGoodVision);
