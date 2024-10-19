@@ -57,14 +57,20 @@ let johnheight = 1.95;
 // }
 
 // BONUS 1
-const scoreDolphins = (97 + 112 + 101) / 3;
-const scoreKoalas = (109 + 95 + 123) / 3;
+const scoreDolphins = (97 + 112 + 80) / 3;
+const scoreKoalas = (109 + 95 + 50) / 3;
 console.log(scoreDolphins, scoreKoalas);
 
-if (scoreDolphins > scoreKoalas) {
+if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
   console.log("Dolphins win the trophy 🏆");
 } else if (scoreDolphins < scoreKoalas) {
   console.log("Kaolas win the trophy 🏆");
-} else if (scoreDolphins === scoreKoalas) {
+} else if (
+  scoreDolphins === scoreKoalas &&
+  scoreDolphins >= 100 &&
+  scoreKoalas >= 100
+) {
   console.log("Both wins the trophy 🏆");
+} else {
+  console.log("No one wins the trophy 😭; Hence its a draw!");
 }
