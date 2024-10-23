@@ -186,15 +186,15 @@
 // if (favourite !== 77) console.log("Why not 77?");
 
 // Boolean  Logic
-const hasDriversLicense = true; //A
-const hasGoodVision = true; // B
+// const hasDriversLicense = true; //A
+// const hasGoodVision = true; // B
 
-console.log(hasDriversLicense && hasGoodVision);
+// console.log(hasDriversLicense && hasGoodVision);
 
-console.log(hasDriversLicense || hasGoodVision);
-console.log(!hasDriversLicense);
+// console.log(hasDriversLicense || hasGoodVision);
+// console.log(!hasDriversLicense);
 
-const shouldDrive = hasDriversLicense && hasGoodVision;
+// const shouldDrive = hasDriversLicense && hasGoodVision;
 
 // if (hasDriversLicense && hasGoodVision) {
 //   console.log("Sarah can drive!!!");
@@ -253,17 +253,17 @@ const shouldDrive = hasDriversLicense && hasGoodVision;
 
 // Conditional OPERATOR
 
-const age = 23;
+// const age = 23;
 // age >= 18 ? console.log('I like to drink wine 🍷') : console.log('I like to drink water 💧');
 
-const drink = age >= 18 ? "wine 🍷>" : "water 💧";
+// const drink = age >= 18 ? "wine 🍷>" : "water 💧";
 
-let drink2;
-if (age >= 18) {
-  drink2 = "wine 🍷";
-} else {
-  drink2 = "water 💧";
-}
-console.log(drink2);
+// let drink2;
+// if (age >= 18) {
+//   drink2 = "wine 🍷";
+// } else {
+//   drink2 = "water 💧";
+// }
+// console.log(drink2);
 
-console.log(`I like to drink ${age >= 18 ? "wine 🍷" : "water 💧"}`);
+// console.log(`I like to drink ${age >= 18 ? "wine 🍷" : "water 💧"}`);
