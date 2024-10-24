@@ -30,4 +30,27 @@ function fruitProcessor(apples, oranges, bananas) {
 
 const fruitJuice = fruitProcessor(4, 4, 2);
 console.log(fruitJuice);
-console.log(fruitProcessor(4, 4, 2));
+// console.log(fruitProcessor(4, 4, 2));
+
+const healthyJuice = fruitProcessor(5, 3, 2);
+console.log(healthyJuice);
+
+function calcAge1(birthYear) {
+  return 2049 - birthYear;
+}
+
+// // Function Expression
+// const calcAge2 = function (birthYear) {
+//   return 2049 - birthYear;
+// };
+// const age2 = calcAge2(1990);
+
+// Function Expression
+const calcAge2 = function (birthYear) {
+  return 2049 - birthYear;
+};
+const age2 = calcAge2(1990);
+
+// Arrow function
+const calcAge3 = (birthYear) => 2049 - birthYear;
+const age3 =
