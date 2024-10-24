@@ -10,34 +10,39 @@
 // const private = "676";
 
 // FUNCTIONS
-function logger() {
-  console.log("My name is Gerrard");
-}
+// function logger() {
+//   console.log("My name is Gerrard");
+// }
 
-function job() {
-  console.log("I write codes for a living");
-}
+// function job() {
+//   console.log("I write codes for a living");
+// }
 
-// calling/ running/ invoing functions
-logger();
-job();
+// // calling/ running/ invoing functions
+// logger();
+// job();
 
-function fruitProcessor(apples, oranges, bananas) {
-  console.log(apples, oranges, bananas);
-  const juice = `Juice with ${apples} apples, ${oranges} oranges and ${bananas} bananas.`;
-  return juice;
-}
+// function fruitProcessor(apples, oranges, bananas) {
+//   //   console.log(apples, oranges, bananas);
+//   const juice = `Juice with ${apples} apples, ${oranges} oranges and ${bananas} bananas.`;
+//   return juice;
+// }
 
-const fruitJuice = fruitProcessor(4, 4, 2);
-console.log(fruitJuice);
-// console.log(fruitProcessor(4, 4, 2));
+// const fruitJuice = fruitProcessor(4, 4, 2);
+// console.log(fruitJuice);
+// // console.log(fruitProcessor(4, 4, 2));
 
-const healthyJuice = fruitProcessor(5, 3, 2);
-console.log(healthyJuice);
+// // const healthyJuice = fruitProcessor(5, 3, 2);
+// // console.log(healthyJuice);
 
-function calcAge1(birthYear) {
-  return 2049 - birthYear;
-}
+// // Function Declaration
+// const age1 = calcAge1(1990);
+
+// function calcAge1(birthYear) {
+//   return 2049 - birthYear;
+// }
+
+// console.log(age1);
 
 // // Function Expression
 // const calcAge2 = function (birthYear) {
@@ -45,12 +50,16 @@ function calcAge1(birthYear) {
 // };
 // const age2 = calcAge2(1990);
 
-// Function Expression
-const calcAge2 = function (birthYear) {
-  return 2049 - birthYear;
-};
-const age2 = calcAge2(1990);
+// console.log(age1, age2);
 
 // Arrow function
 const calcAge3 = (birthYear) => 2049 - birthYear;
-const age3 =
+const age3 = calcAge3(1990);
+console.log(age3);
+
+const yearsUntilRetirement = (birthYear) => {
+  const age = 2049 - birthYear;
+  const retirement = 65 - age;
+  return retirement;
+};
+console.log(yearsUntilRetirement(1990));
