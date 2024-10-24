@@ -57,9 +57,12 @@ const calcAge3 = (birthYear) => 2049 - birthYear;
 const age3 = calcAge3(1990);
 console.log(age3);
 
-const yearsUntilRetirement = (birthYear) => {
+const yearsUntilRetirement = (birthYear, firstName, lastName, prize) => {
   const age = 2049 - birthYear;
   const retirement = 65 - age;
-  return retirement;
+  //   return retirement;
+  return `${firstName} ${lastName} retires in ${retirement} years with a ${prize} prize`;
 };
-console.log(yearsUntilRetirement(1990));
+console.log(yearsUntilRetirement(1990, "Biodun", "Ishola", "$1million"));
+console.log(yearsUntilRetirement(1990, "Biodun", "Ishola", "$1million"));
+console.log(yearsUntilRetirement(1990, "Biodun", "Ishola"));
