@@ -67,18 +67,42 @@
 // console.log(yearsUntilRetirement(1990, "Biodun", "Ishola", "$1million"));
 // console.log(yearsUntilRetirement(1990, "Biodun", "Ishola"));
 
-function cutFruitPieces(fruit) {
-  return fruit * 4;
-}
+// function cutFruitPieces(fruit) {
+//   return fruit * 7;
+// }
 
-function fruitProcessor(apples, oranges, bananas) {
-  const applePieces = cutFruitPieces(apples);
-  const orangePieces = cutFruitPieces(oranges);
-  const bananaPieces = cutFruitPieces(bananas);
+// function fruitProcessor(apples, oranges, bananas) {
+//   const applePieces = cutFruitPieces(apples);
+//   const orangePieces = cutFruitPieces(oranges);
+//   const bananaPieces = cutFruitPieces(bananas);
 
-  //   console.log(apples, oranges, bananas);
-  const juice = `Juice with ${applePieces} pieces of apples, ${orangePieces} pieces of oranges and ${bananaPieces} pieces of bananas.`;
-  return juice;
-}
+//   //   console.log(apples, oranges, bananas);
+//   const juice = `Juice with ${applePieces} pieces of apples, ${orangePieces} pieces of oranges and ${bananaPieces} pieces of bananas.`;
+//   return juice;
+// }
 
-console.log(fruitProcessor(4, 3, 3));
+// console.log(fruitProcessor(4, 3, 3));
+
+const calcAge = function (birthYear) {
+  return 2049 - birthYear;
+};
+
+const yearsUntilRetirement = function (birthYear, firstName, lastName, prize) {
+  const age = 2049 - birthYear;
+  const retirement = 65 - age;
+
+  if (retirement > 0) {
+    console.log(
+      `${firstName} ${lastName} retires in ${retirement} years with a ${prize} prize`
+    );
+    return retirement;
+  } else {
+    console.log(
+      `${firstName} ${lastName} has already retired without a ${prize} prize`
+    );
+    return -1;
+  }
+};
+
+console.log(yearsUntilRetirement(1960, "Biodun", "Ishola", "$1million"));
+console.log(yearsUntilRetirement(1995, "Gerrard", "Shawn", "$1million"));
