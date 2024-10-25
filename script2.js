@@ -53,16 +53,32 @@
 // console.log(age1, age2);
 
 // Arrow function
-const calcAge3 = (birthYear) => 2049 - birthYear;
-const age3 = calcAge3(1990);
-console.log(age3);
+// const calcAge3 = (birthYear) => 2049 - birthYear;
+// const age3 = calcAge3(1990);
+// console.log(age3);
 
-const yearsUntilRetirement = (birthYear, firstName, lastName, prize) => {
-  const age = 2049 - birthYear;
-  const retirement = 65 - age;
-  //   return retirement;
-  return `${firstName} ${lastName} retires in ${retirement} years with a ${prize} prize`;
-};
-console.log(yearsUntilRetirement(1990, "Biodun", "Ishola", "$1million"));
-console.log(yearsUntilRetirement(1990, "Biodun", "Ishola", "$1million"));
-console.log(yearsUntilRetirement(1990, "Biodun", "Ishola"));
+// const yearsUntilRetirement = (birthYear, firstName, lastName, prize) => {
+//   const age = 2049 - birthYear;
+//   const retirement = 65 - age;
+//   //   return retirement;
+//   return `${firstName} ${lastName} retires in ${retirement} years with a ${prize} prize`;
+// };
+// console.log(yearsUntilRetirement(1990, "Biodun", "Ishola", "$1million"));
+// console.log(yearsUntilRetirement(1990, "Biodun", "Ishola", "$1million"));
+// console.log(yearsUntilRetirement(1990, "Biodun", "Ishola"));
+
+function cutFruitPieces(fruit) {
+  return fruit * 4;
+}
+
+function fruitProcessor(apples, oranges, bananas) {
+  const applePieces = cutFruitPieces(apples);
+  const orangePieces = cutFruitPieces(oranges);
+  const bananaPieces = cutFruitPieces(bananas);
+
+  //   console.log(apples, oranges, bananas);
+  const juice = `Juice with ${apples} apples, ${oranges} oranges and ${bananas} bananas.`;
+  return juice;
+}
+
+console.log(fruitProcessor(4, 3, 3));
