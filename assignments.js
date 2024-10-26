@@ -84,3 +84,7 @@ let johnheight = 1.95;
 //     bill + tip
 //   }`
 // );
+
+// CHALLENGE #5
+
+const calcAverage = (a, b, c) => (a + b + c) / 3;
