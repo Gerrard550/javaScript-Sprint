@@ -83,26 +83,42 @@
 
 // console.log(fruitProcessor(4, 3, 3));
 
-const calcAge = function (birthYear) {
-  return 2049 - birthYear;
-};
+// const calcAge = function (birthYear) {
+//   return 2049 - birthYear;
+// };
 
-const yearsUntilRetirement = function (birthYear, firstName, lastName, prize) {
-  const age = 2049 - birthYear;
-  const retirement = 65 - age;
+// const yearsUntilRetirement = function (birthYear, firstName, lastName, prize) {
+//   const age = 2049 - birthYear;
+//   const retirement = 65 - age;
 
-  if (retirement > 0) {
-    console.log(
-      `${firstName} ${lastName} retires in ${retirement} years with a ${prize} prize`
-    );
-    return retirement;
-  } else {
-    console.log(
-      `${firstName} ${lastName} has already retired without a ${prize} prize`
-    );
-    return -1;
-  }
-};
+//   if (retirement > 0) {
+//     console.log(
+//       `${firstName} ${lastName} retires in ${retirement} years with a ${prize} prize`
+//     );
+//     return retirement;
+//   } else {
+//     console.log(
+//       `${firstName} ${lastName} has already retired without a ${prize} prize`
+//     );
+//     return -1;
+//   }
+// };
 
-console.log(yearsUntilRetirement(1960, "Biodun", "Ishola", "$1million"));
-console.log(yearsUntilRetirement(1995, "Gerrard", "Shawn", "$1million"));
+// console.log(yearsUntilRetirement(1960, "Biodun", "Ishola", "$1million"));
+// console.log(yearsUntilRetirement(1995, "Gerrard", "Shawn", "$1million"));
+
+// Array
+
+const friend1 = "Shola";
+const friend2 = "Kunle";
+const friend3 = "Simbi";
+const friend4 = "Yewande";
+
+const friends = ["Shola", "Kunle", "Simbi", "Yewande"];
+console.log(friends);
+
+const years = new Array(1991, 1984, 2008, 2020);
+
+console.log(friends[0]);
+console.log(friends[3]);
+console.log(friends[2]);
