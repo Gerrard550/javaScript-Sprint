@@ -125,3 +125,12 @@ console.log(friends[2]);
 
 console.log(friends.length);
 console.log(friends[friends.length - 1]);
+
+friends[2] = "Femi";
+console.log(friends);
+
+friends[1] = "Yomi";
+console.log(friends);
+
+friends[2] = "Toyin, Ife, Lola";
+console.log(friends);
