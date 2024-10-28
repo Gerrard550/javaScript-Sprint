@@ -158,3 +158,16 @@ console.log(newLength1);
 const newLength2 = friends.unshift("Tope");
 console.log(friends);
 console.log(newLength2);
+
+// Remove Element
+const popped = friends.pop(); //last
+console.log(friends);
+console.log(popped);
+
+const popped1 = friends.pop();
+console.log(friends);
+console.log(popped1);
+
+const shifted = friends.shift(); //First
+console.log(friends);
+console.log(shifted);
