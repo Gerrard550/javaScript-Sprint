@@ -134,3 +134,27 @@ console.log(friends);
 
 friends[2] = "Toyin, Ife, Lola";
 console.log(friends);
+// friends = ["Emeka", "Uche"];
+
+const firstName = "Biodun";
+const biodun = [firstName, "Ishola", 2030 - 1980, "Scientist", friends];
+console.log(biodun);
+
+// Exercise
+const calcAge = function (birthYear) {
+  return 2049 - birthYear;
+};
+
+const years = [1990, 1967, 2002, 2010, 2018];
+
+// Method of Array
+// Add element(Push and Unshift)
+
+const friends = ["Shola", "Bimbo", "Muyiwa"];
+const newLength1 = friends.push("Musa");
+console.log(friends);
+console.log(newLength1);
+
+const newLength2 = friends.unshift("Tope");
+console.log(friends);
+console.log(newLength2);
