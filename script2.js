@@ -109,65 +109,88 @@
 
 // Array
 
-const friend1 = "Shola";
-const friend2 = "Kunle";
-const friend3 = "Simbi";
-const friend4 = "Yewande";
+// const friend1 = "Shola";
+// const friend2 = "Kunle";
+// const friend3 = "Simbi";
+// const friend4 = "Yewande";
 
-const friends = ["Shola", "Kunle", "Simbi", "Yewande"];
-console.log(friends);
+// const friends = ["Shola", "Kunle", "Simbi", "Yewande", "Biodun"];
+// console.log(friends);
 
-const years = new Array(1991, 1984, 2008, 2020);
+// const y = new Array(1991, 1984, 2008, 2020);
 
-console.log(friends[0]);
-console.log(friends[3]);
-console.log(friends[2]);
+// console.log(friends[0]);
+// console.log(friends[3]);
+// console.log(friends[2]);
 
-console.log(friends.length);
-console.log(friends[friends.length - 1]);
+// console.log(friends.length);
+// console.log(friends[friends.length - 1]);
 
-friends[2] = "Femi";
-console.log(friends);
+// friends[2] = "Femi";
+// console.log(friends);
 
-friends[1] = "Yomi";
-console.log(friends);
+// friends[1] = "Yomi";
+// console.log(friends);
 
-friends[2] = "Toyin, Ife, Lola";
-console.log(friends);
-// friends = ["Emeka", "Uche"];
+// friends[2] = "Toyin, Ife, Lola";
+// console.log(friends);
+// // friends = ["Emeka", "Uche"];
 
-const firstName = "Biodun";
-const biodun = [firstName, "Ishola", 2030 - 1980, "Scientist", friends];
-console.log(biodun);
+// const firstName = "Biodun";
+// const biodun = [firstName, "Ishola", 2030 - 1980, "Scientist", friends];
+// console.log(biodun);
 
 // Exercise
-const calcAge = function (birthYear) {
-  return 2049 - birthYear;
-};
+// const calcAge = function (birthYear) {
+//   return 2049 - birthYear;
+// };
 
-const years = [1990, 1967, 2002, 2010, 2018];
+// const years = [1990, 1967, 2002, 2010, 2018];
+
+// const age1 = calcAge(years[0]);
+// const age2 = calcAge(years[1]);
+// const age3 = calcAge(years[years.length - 1]);
+// console.log(age1, age2, age3);
+
+// const ages = [
+//   calcAge(years[0]),
+//   calcAge(years[1]),
+//   calcAge(years[years.length - 1]),
+// ];
+// console.log(ages);
 
 // Method of Array
-// Add element(Push and Unshift)
+// Add element
+// (Push and Unshift)
 
-const friends = ["Shola", "Bimbo", "Muyiwa"];
-const newLength1 = friends.push("Musa");
-console.log(friends);
-console.log(newLength1);
+// const friends = ["Shola", "Bimbo", "Muyiwa"];
+// const newLength1 = friends.push("Musa");
+// console.log(friends);
+// console.log(newLength1);
 
-const newLength2 = friends.unshift("Tope");
-console.log(friends);
-console.log(newLength2);
+// const newLength2 = friends.unshift("Tope");
+// console.log(friends);
+// console.log(newLength2);
 
-// Remove Element
-const popped = friends.pop(); //last
-console.log(friends);
-console.log(popped);
+// // Remove Element
+// // (Pop and Shift)
+// const popped = friends.pop(); //last
+// console.log(friends);
+// console.log(popped);
 
-const popped1 = friends.pop();
-console.log(friends);
-console.log(popped1);
+// const popped1 = friends.pop();
+// console.log(friends);
+// console.log(popped1);
 
-const shifted = friends.shift(); //First
-console.log(friends);
-console.log(shifted);
+// const shifted = friends.shift(); //First
+// console.log(friends);
+// console.log(shifted);
+
+// console.log(friends.indexOf("Bimbo"));
+// console.log(friends.indexOf("Wale"));
+
+// console.log(friends.includes("Shola"));
+
+// if (friends.includes("Shola")) {
+//   console.log("You have a good friend named Shola");
+// }
