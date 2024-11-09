@@ -195,6 +195,7 @@
 //   console.log("You have a good friend named Shola");
 // }
 
+// Object
 const biodunArray = [
   "Biodun",
   "Gerrard",
@@ -210,3 +211,17 @@ const biodun = {
   job: "Science",
   friends: ["Kunle", "Toyin", "Bimbo"],
 };
+// DOT AND BRACKET
+console.log(biodun);
+console.log(biodun.job);
+console.log(biodun["age"]);
+console.log(biodun["lastName"]);
+
+const nameKey = "Name";
+console.log(biodun["first" + nameKey]);
+console.log(biodun["last" + nameKey]);
+
+const interestedIn = prompt(
+  "What do you want to know about Biodun? Choose between firstName, lastName, age, job, and friends"
+);
+console.log(biodun[interestedIn]);
