@@ -194,3 +194,19 @@
 // if (friends.includes("Shola")) {
 //   console.log("You have a good friend named Shola");
 // }
+
+const biodunArray = [
+  "Biodun",
+  "Gerrard",
+  2049 - 1990,
+  "Science",
+  ["Kunle", "Toyin", "Bimbo"],
+];
+
+const biodun = {
+  firstName: "Biodun",
+  lastName: "Gerrard",
+  age: "2049-1990",
+  job: "Science",
+  friends: ["Kunle", "Toyin", "Bimbo"],
+};
