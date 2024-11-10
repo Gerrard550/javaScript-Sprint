@@ -225,3 +225,17 @@ const interestedIn = prompt(
   "What do you want to know about Biodun? Choose between firstName, lastName, age, job, and friends"
 );
 console.log(biodun[interestedIn]);
+} else {
+  console.log(
+    "Wrong request!! Choose between firstName, lastName, age, job, and friends"
+  );
+}
+
+biodun.location = "Africa";
+biodun["twitter"] = "@biodunishola2";
+console.log(biodun);
+
+// Challenge
+// 'Biodun has 3 friends, and his best friend is called Bimbo'
+
+console.log(biodun.friends);
