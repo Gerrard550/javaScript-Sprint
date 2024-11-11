@@ -210,32 +210,36 @@ const biodun = {
   age: "2049-1990",
   job: "Science",
   friends: ["Kunle", "Toyin", "Bimbo"],
+  hasDriversLicense: true,
+
+  // calcAge: function (birthYear) {
+  //   return 2037 - birthYear;
+  // },
+
+  // calcAge: function () {
+  //   // console.log(this);
+  //   return 2037 - this.birthYear;
+  // },
+
+  calcAge: function () {
+    this.age = 2037 - this.birthYear;
+    return this.age;
+  },
+
+  getSummary: function () {
+    return `${this.firstName} is a ${this.calcAge()} -year old ${
+      biodun.job
+    }, and he has ${this.hasDriversLicense ? "a" : "no"} driver's licence.`;
+  },
 };
-// DOT AND BRACKET
-console.log(biodun);
-console.log(biodun.job);
-console.log(biodun["age"]);
-console.log(biodun["lastName"]);
 
-const nameKey = "Name";
-console.log(biodun["first" + nameKey]);
-console.log(biodun["last" + nameKey]);
+console.log(biodun.calcAge());
 
-const interestedIn = prompt(
-  "What do you want to know about Biodun? Choose between firstName, lastName, age, job, and friends"
-);
-console.log(biodun[interestedIn]);
-} else {
-  console.log(
-    "Wrong request!! Choose between firstName, lastName, age, job, and friends"
-  );
-}
+console.log(biodun.age);
+console.log(biodun.age);
+console.log(biodun.age);
 
-biodun.location = "Africa";
-biodun["twitter"] = "@biodunishola2";
-console.log(biodun);
+// challenge
+// "Biodun is a 47-year old teacher, and he has a driver's license"
 
-// Challenge
-// 'Biodun has 3 friends, and his best friend is called Bimbo'
-
-console.log(biodun.friends);
+console.log(biodun.getSummary());
