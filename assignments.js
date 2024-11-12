@@ -1,8 +1,8 @@
-// DATA 1
-let markWeight = 78;
-let markheight = 1.69;
-let johnweight = 92;
-let johnheight = 1.95;
+// // DATA 1
+// let markWeight = 78;
+// let markheight = 1.69;
+// let johnweight = 92;
+// let johnheight = 1.95;
 
 // const markWeight = 95;
 // const markheight = 1.88;
@@ -130,3 +130,60 @@ const calcTip = function (bill) {
 // const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
 // const totals = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
 // console.log(bills, tips, totals);
+
+// ===========================================================================================================================
+
+// // DATA 1
+// let markWeight = 78;
+// let markheight = 1.69;
+// let johnweight = 92;
+// let johnheight = 1.95;
+
+// const markWeight = 95;
+// const markheight = 1.88;
+// const johnweight = 85;
+// const johnheight = 1.76;
+
+// console.log(markWeight);
+// console.log(markheight);
+// console.log(johnweight);
+// console.log(johnheight);
+
+// let markBMI = 78 / (1.69 * 1.69);
+// let johmBMI = 92 / (1.95 * 1.95);
+
+// console.log(markBMI, johmBMI);
+
+// if (markBMI > johmBMI) {
+//   console.log(`Mark's BMI (${markBMI}) is higher than John's BMI(${johmBMI})`);
+// } else {
+//   console.log(`John's BMI(${johmBMI}) is higher than Mark's BMI(${markBMI})!`);
+// }
+
+const mark = {
+  fullName: "Mark Miller",
+  markWeight: "78",
+  markheight: "1.69",
+  calcBMI: function () {
+    this.bmi = 78 / (1.69 * 1.69);
+    return this.bmi;
+  },
+};
+
+const john = {
+  fullName: "John Smith",
+  johnweight: "92",
+  johnheight: "1.95",
+  calcBMI: function () {
+    this.bmi = 92 / (1.95 * 1.95);
+    return this.bmi;
+  },
+};
+
+console.log(mark);
+console.log(john);
+
+mark.calcBMI();
+john.calcBMI();
+
+console.log(mark.bmi, john.bmi);
