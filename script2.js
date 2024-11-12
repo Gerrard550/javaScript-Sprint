@@ -196,50 +196,110 @@
 // }
 
 // Object
-const biodunArray = [
-  "Biodun",
-  "Gerrard",
-  2049 - 1990,
-  "Science",
-  ["Kunle", "Toyin", "Bimbo"],
-];
+// const biodunArray = [
+//   "Biodun",
+//   "Gerrard",
+//   2049 - 1990,
+//   "Science",
+//   ["Kunle", "Toyin", "Bimbo"],
+// ];
 
-const biodun = {
-  firstName: "Biodun",
-  lastName: "Gerrard",
-  age: "2049-1990",
-  job: "Science",
-  friends: ["Kunle", "Toyin", "Bimbo"],
-  hasDriversLicense: true,
+// const biodun = {
+//   firstName: "Biodun",
+//   lastName: "Gerrard",
+//   age: "2049-1990",
+//   job: "Science",
+//   friends: ["Kunle", "Toyin", "Bimbo"],
+// };
+// // DOT AND BRACKET
+// console.log(biodun);
+// console.log(biodun.job);
+// console.log(biodun["age"]);
+// console.log(biodun["lastName"]);
 
-  // calcAge: function (birthYear) {
-  //   return 2037 - birthYear;
-  // },
+// const nameKey = "Name";
+// console.log(biodun["first" + nameKey]);
+// console.log(biodun["last" + nameKey]);
 
-  // calcAge: function () {
-  //   // console.log(this);
-  //   return 2037 - this.birthYear;
-  // },
+// const interestedIn = prompt(
+//   "What do you want to know about Biodun? Choose between firstName, lastName, age, job, and friends"
+// );
 
-  calcAge: function () {
-    this.age = 2037 - this.birthYear;
-    return this.age;
-  },
+// if (biodun[interestedIn]) {
+//   console.log(biodun[interestedIn]);
+// } else {
+//   console.log(
+//     "Wrong request!! Choose between firstName, lastName, age, job, and friends"
+//   );
+// }
 
-  getSummary: function () {
-    return `${this.firstName} is a ${this.calcAge()} -year old ${
-      biodun.job
-    }, and he has ${this.hasDriversLicense ? "a" : "no"} driver's licence.`;
-  },
-};
+// biodun.location = "Africa";
+// biodun["twitter"] = "@biodunishola2";
+// console.log(biodun);
 
-console.log(biodun.calcAge());
+// // Challenge
+// // 'Biodun has 3 friends, and his best friend is called Bimbo'
 
-console.log(biodun.age);
-console.log(biodun.age);
-console.log(biodun.age);
+// console.log(
+//   `${biodun.firstName} has ${biodun.friends.length} friends, and his best friend is called ${biodun.friends[2]}`
+// );
 
-// challenge
-// "Biodun is a 47-year old teacher, and he has a driver's license"
+// OBJECT METHODS
 
-console.log(biodun.getSummary());
+// const biodun = {
+//   firstName: "Biodun",
+//   lastName: "Gerrard",
+//   birthYear: "1990",
+//   job: "Scientist",
+//   friends: ["Kunle", "Toyin", "Bimbo"],
+//   hasDriversLicense: true,
+
+//   // calcAge: function (birthYear) {
+//   //   return 2037 - birthYear;
+//   // },
+
+//   // calcAge: function () {
+//   //   // console.log(this);
+//   //   return 2037 - this.birthYear;
+//   // },
+
+//   calcAge: function () {
+//     this.age = 2037 - this.birthYear;
+//     return this.age;
+//   },
+
+//   getSummary: function () {
+//     return `${this.firstName} is a ${this.calcAge()} -year old ${
+//       biodun.job
+//     }, and he has ${this.hasDriversLicense ? "a" : "no"} driver's licence.`;
+//   },
+// };
+
+// console.log(biodun.calcAge());
+
+// console.log(biodun.age);
+// console.log(biodun.age);
+// console.log(biodun.age);
+
+// // challenge
+// // "Biodun is a 47-year old teacher, and he has a driver's license"
+
+// console.log(biodun.getSummary());
+
+// LOOP
+
+// console.log("lifting weights repitition 1 🏋️‍♂️");
+// console.log("lifting weights repitition 2 🏋️‍♂️");
+// console.log("lifting weights repitition 3 🏋️‍♂️");
+// console.log("lifting weights repitition 4 🏋️‍♂️");
+// console.log("lifting weights repitition 5 🏋️‍♂️");
+// console.log("lifting weights repitition 6 🏋️‍♂️");
+// console.log("lifting weights repitition 7 🏋️‍♂️");
+// console.log("lifting weights repitition 8 🏋️‍♂️");
+// console.log("lifting weights repitition 9 🏋️‍♂️");
+// console.log("lifting weights repitition 10 🏋️‍♂️");
+
+// for loop keeps running while condition is TRUE
+for (let rep = 1; rep <= 10; rep++) {
+  console.log(`Lifting weights repitition ${rep} 🏋️‍♀️`);
+}

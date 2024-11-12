@@ -4,26 +4,26 @@
 // let johnweight = 92;
 // let johnheight = 1.95;
 
-// const markWeight = 95;
-// const markheight = 1.88;
-// const johnweight = 85;
-// const johnheight = 1.76;
+// // const markWeight = 95;
+// // const markheight = 1.88;
+// // const johnweight = 85;
+// // const johnheight = 1.76;
 
-// console.log(markWeight);
-// console.log(markheight);
-// console.log(johnweight);
-// console.log(johnheight);
+// // console.log(markWeight);
+// // console.log(markheight);
+// // console.log(johnweight);
+// // console.log(johnheight);
 
-// let markBMI = 78 / (1.69 * 1.69);
-// let johmBMI = 92 / (1.95 * 1.95);
+// // let markBMI = 78 / (1.69 * 1.69);
+// // let johmBMI = 92 / (1.95 * 1.95);
 
-// console.log(markBMI, johmBMI);
+// // console.log(markBMI, johmBMI);
 
-// if (markBMI > johmBMI) {
-//   console.log(`Mark's BMI (${markBMI}) is higher than John's BMI(${johmBMI})`);
-// } else {
-//   console.log(`John's BMI(${johmBMI}) is higher than Mark's BMI(${markBMI})!`);
-// }
+// // if (markBMI > johmBMI) {
+// //   console.log(`Mark's BMI (${markBMI}) is higher than John's BMI(${johmBMI})`);
+// // } else {
+// //   console.log(`John's BMI(${johmBMI}) is higher than Mark's BMI(${markBMI})!`);
+// // }
 
 // // MUSA
 // const occupation = "CryptoCurrency";
@@ -120,9 +120,9 @@
 // checkWinner(scoreDolphins, scoreKoalas);
 
 // CHALLENGE #6
-const calcTip = function (bill) {
-  return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
-};
+// const calcTip = function (bill) {
+//   return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+// };
 // const calcTip = (bill) => (bill) =>
 //   50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
 
@@ -160,30 +160,38 @@ const calcTip = function (bill) {
 //   console.log(`John's BMI(${johmBMI}) is higher than Mark's BMI(${markBMI})!`);
 // }
 
-const mark = {
-  fullName: "Mark Miller",
-  markWeight: "78",
-  markheight: "1.69",
-  calcBMI: function () {
-    this.bmi = 78 / (1.69 * 1.69);
-    return this.bmi;
-  },
-};
+// const mark = {
+//   fullName: "Mark Miller",
+//   weight: "78",
+//   height: "1.69",
+//   calcBMI: function () {
+//     this.bmi = this.weight / this.height ** 2;
+//     return this.bmi;
+//   },
+// };
 
-const john = {
-  fullName: "John Smith",
-  johnweight: "92",
-  johnheight: "1.95",
-  calcBMI: function () {
-    this.bmi = 92 / (1.95 * 1.95);
-    return this.bmi;
-  },
-};
+// const john = {
+//   fullName: "John Smith",
+//   weight: "92",
+//   height: "1.95",
+//   calcBMI: function () {
+//     this.bmi = this.weight / this.height ** 2;
+//     return this.bmi;
+//   },
+// };
 
-console.log(mark);
-console.log(john);
+// console.log(mark, john);
 
-mark.calcBMI();
-john.calcBMI();
+// mark.calcBMI();
+// john.calcBMI();
 
-console.log(mark.bmi, john.bmi);
+// console.log(mark.bmi, john.bmi);
+
+// if (mark.bmi > john.bmi) {
+//   console.log(
+//     `${mark.fullName}'s BMI (${mark.bmi}) is higher than ${john.fullName}'s BMI (${john.bmi})`
+//   );
+// } else if (john.bmi > mark.bmi);
+// console.log(
+//   `${john.fullName}'s BMI (${john.bmi}) is lower than ${mark.fullName}'s BMI (${mark.bmi})`
+// );
