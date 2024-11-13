@@ -300,6 +300,6 @@
 // console.log("lifting weights repitition 10 🏋️‍♂️");
 
 // for loop keeps running while condition is TRUE
-for (let rep = 1; rep <= 10; rep++) {
+for (let rep = 6; rep <= 10; rep++) {
   console.log(`Lifting weights repitition ${rep} 🏋️‍♀️`);
 }
