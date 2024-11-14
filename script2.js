@@ -335,5 +335,3 @@ const ages = [];
 for (let i = 0; i < years.length; i++) {
   ages.push(2049 - years[i]);
 }
-
-console.log(ages);
