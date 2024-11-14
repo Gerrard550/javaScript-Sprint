@@ -303,3 +303,37 @@
 for (let rep = 6; rep <= 10; rep++) {
   console.log(`Lifting weights repitition ${rep} 🏋️‍♀️`);
 }
+
+
+const biodunArray = [
+  "Biodun",
+  "Gerrard",
+  2049 - 1990,
+  "Science",
+  ["Kunle", "Toyin", "Bimbo"],
+];
+
+// console.log(biodun[0]);
+// console.log(biodun[0])
+// ...
+// console.log(biodun[0])
+// biodun[5] does NOT exist
+
+for (let i = 0; i < biodun.length; i++) {
+  console.log(biodun[i], typeof biodun[i]);
+
+  //   Filling types array
+  // types[i] = typeof biodun[i];
+  types.push(typeof biodun[i]);
+}
+
+console.log(types);
+
+const years = [1991, 2007, 1969, 2020];
+const ages = [];
+
+for (let i = 0; i < years.length; i++) {
+  ages.push(2049 - years[i]);
+}
+
+console.log(ages);
