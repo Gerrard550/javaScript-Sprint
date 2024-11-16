@@ -300,29 +300,80 @@
 // console.log("lifting weights repitition 10 🏋️‍♂️");
 
 // for loop keeps running while condition is TRUE
-for (let rep = 6; rep <= 10; rep++) {
+// for (let rep = 6; rep <= 10; rep++) {
+//   console.log(`Lifting weights repitition ${rep} 🏋️‍♀️`);
+// }
+
+// const biodun = [
+//   "Biodun",
+//   "Gerrard",
+//   2049 - 1990,
+//   "Science",
+//   ["Kunle", "Toyin", "Bimbo"],
+//   true,
+// ];
+// const types = [];
+
+// // console.log(biodun[0]);
+// // console.log(biodun[0])
+// // ...
+// // console.log(biodun[0])
+// // biodun[5] does NOT exist
+
+// for (let i = 0; i < biodun.length; i++) {
+//   // Reading from Biodun aaray
+//   console.log(biodun[i], typeof biodun[i]);
+
+//   //   Filling types array
+//   // types[i] = typeof biodun[i];
+//   types.push(typeof biodun[i]);
+// }
+
+// console.log(types);
+
+// const years = [1991, 2007, 1969, 2020];
+// const ages = [];
+
+// for (let i = 0; i < years.length; i++) {
+//   ages.push(2049 - years[i]);
+// }
+
+// console.log(ages);
+
+// BACKWARD LOOP
+
+// const biodun = [
+//   "Biodun",
+//   "Gerrard",
+//   2049 - 1990,
+//   "Science",
+//   ["Kunle", "Toyin", "Bimbo"],
+//   true,
+// ];
+
+// // 0, 1, ...4
+// // 4, 3, ...0
+
+// for (let i = biodun.length - 1; i >= 0; i--) {
+//   console.log(i, biodun[i]);
+// }
+
+// // LOOPS IN LOOPS
+
+// for (let food = 1; food < 5; food++) {
+//   console.log(`--------Food vendor ${food}`);
+
+//   for (let rep = 1; rep < 7; rep++) {
+//     console.log(`Food ${food} Eating good food always ${rep}`);
+//   }
+// }
+
+for (let rep = 1; rep <= 10; rep++) {
   console.log(`Lifting weights repitition ${rep} 🏋️‍♀️`);
 }
 
-
-const biodunArray = [
-  "Biodun",
-  "Gerrard",
-  2049 - 1990,
-  "Science",
-  ["Kunle", "Toyin", "Bimbo"],
-];
-
-// console.log(biodun[0]);
-// console.log(biodun[0])
-// ...
-// console.log(biodun[0])
-// biodun[5] does NOT exist
-
-for (let i = 0; i < biodun.length; i++) {
-  console.log(biodun[i], typeof biodun[i]);
-
-  //   Filling types array
-  // types[i] = typeof biodun[i];
-  types.push(typeof biodun[i]);
+let rep = 1;
+while (rep <= 10) {
+  console.log(`WHILE: Lifting weights repitition ${rep}🏋️‍♂️`);
+  rep++;
 }
