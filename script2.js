@@ -377,3 +377,7 @@ while (rep <= 10) {
   console.log(`WHILE: Lifting weights repitition ${rep}🏋️‍♂️`);
   rep++;
 }
+
+let dice = Math.trunc(Math.random() * 6) + 1;
+
+console.log(dice);
