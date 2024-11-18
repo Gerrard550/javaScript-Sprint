@@ -212,16 +212,28 @@ for (let i = 0; i < bills.length; i++) {
   totals.push(tip + bills[i]);
 }
 
-console.log(bills, tips, totals);
+// 1) Understanding the problem
+// -What is temp aplitude? Answer: difference between highest and lowest temp
+// -How to compute max and min temperature
+// - What's a sensor error?And what to do?
 
-const calcAverage = function (arr) {
-  let sum = 0;
-  for (let i = 0; i < arr.length; i++) {
-    // sum = sum + sum[i];
-    sum += arr[i];
+// 2) Breaking up into sub-problems
+// -How to ignore errors?
+// - Find max value in temp array
+// - Find min value in temp array
+// -Subtract min from max (amplitude) and return it.
+
+const calcTempAmplitude = function (temps) {
+  let max = temps[0];
+  let min = temp[0];
+  for (let i = 0; i < temps.length; i++) {
+    const curTemp = temps[i];
+
+    if (temps[i] > max) max = temps[i];
+    if (temps[i] < min) min = temps[i];
   }
-
-  return sum / arr.length;
+  console.log(max);
+  console.log(min);
 };
 console.log(calcAverage([2, 3, 7]));
 console.log(calcAverage(totals));
