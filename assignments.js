@@ -227,7 +227,7 @@
 // console.log(calcAverage(totals));
 // console.log(calcAverage(tips));
 
-const temperatures = [3, -2, -6, -1, 'error', 9, 13, 17, 15, 14, 9, 5];
+// const temperatures = [3, -2, -6, -1, 'error', 9, 13, 17, 15, 14, 9, 5];
 
 // 1) Understanding the problem
 // -What is temp aplitude? Answer: difference between highest and lowest temp
@@ -241,47 +241,69 @@ const temperatures = [3, -2, -6, -1, 'error', 9, 13, 17, 15, 14, 9, 5];
 // -Subtract min from max (amplitude) and return it.
 // -- merge two arrays
 
-const calcTempAmplitude = function (temps) {
-  let max = temps[0];
-  let min = temps[0];
+// const calcTempAmplitude = function (temps) {
+//   let max = temps[0];
+//   let min = temps[0];
 
-  for (let i = 0; i < temps.length; i++) {
-    const curTemp = temps[i];
-    if (typeof curTemp !== 'number') continue;
+//   for (let i = 0; i < temps.length; i++) {
+//     const curTemp = temps[i];
+//     if (typeof curTemp !== 'number') continue;
 
-    if (curTemp > max) max = curTemp;
-    if (curTemp < min) min = curTemp;
-  }
-  console.log(max, min);
-  return max - min;
+//     if (curTemp > max) max = curTemp;
+//     if (curTemp < min) min = curTemp;
+//   }
+//   console.log(max, min);
+//   return max - min;
+// };
+
+// const amplitude = calcTempAmplitude(temperatures);
+// console.log(amplitude);
+
+// // MERGE 2 ARRAYS
+// const calcTempAmplitudeNew = function (t1, t2, t3, t4) {
+//   const temps = t1.concat(t2).concat(t3).concat(t4);
+//   console.log(temps);
+
+//   let max = temps[0];
+//   let min = temps[0];
+
+//   for (let i = 0; i < temps.length; i++) {
+//     const curTemp = temps[i];
+//     if (typeof curTemp !== 'number') continue;
+
+//     if (curTemp > max) max = curTemp;
+//     if (curTemp < min) min = curTemp;
+//   }
+//   console.log(max, min);
+//   return max - min;
+// };
+
+// const amplitudeNew = calcTempAmplitudeNew(
+//   [3, 5, 1],
+//   [9, 0, 5],
+//   [7, -3, 12],
+//   [-6, 22, 14]
+// );
+// console.log(amplitudeNew);
+
+const measureKelvin = function () {
+  const measurement = {
+    type: 'temp',
+    unit: 'celsius',
+    // C FIX
+    value: Number(prompt('Degrees celsius:')),
+  };
+
+  //B FIND
+  console.table(measurement);
+
+  // console.log(measurement.value);
+  // console.warn(measurement.value);
+  // console.error(measurement.value);
+
+  const kelvin = measurement.value + 273;
+  return kelvin;
 };
 
-const amplitude = calcTempAmplitude(temperatures);
-console.log(amplitude);
-
-// MERGE 2 ARRAYS
-const calcTempAmplitudeNew = function (t1, t2, t3, t4) {
-  const temps = t1.concat(t2).concat(t3).concat(t4);
-  console.log(temps);
-
-  let max = temps[0];
-  let min = temps[0];
-
-  for (let i = 0; i < temps.length; i++) {
-    const curTemp = temps[i];
-    if (typeof curTemp !== 'number') continue;
-
-    if (curTemp > max) max = curTemp;
-    if (curTemp < min) min = curTemp;
-  }
-  console.log(max, min);
-  return max - min;
-};
-
-const amplitudeNew = calcTempAmplitudeNew(
-  [3, 5, 1],
-  [9, 0, 5],
-  [7, -3, 12],
-  [-6, 22, 14]
-);
-console.log(amplitudeNew);
+// A IDENTIFY
+console.log(measureKelvin());
