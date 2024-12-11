@@ -1,9 +1,16 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
 }
 
 body {
+  font-family: 'Press Start 2P';
   background-color: rgba(148, 179, 236, 0.733);
   width: 100%;
 }
@@ -20,4 +27,8 @@ p {
   font-size: 30px;
   padding: 20px;
   color: rgba(8, 109, 7, 0.733);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
