@@ -32,3 +32,26 @@ p {
   align-items: center;
 
 }
+
+.number {
+  font-size: 40px;
+  margin: 30px 200px;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  position: relative;
+}
+
+
+.btn-again {
+  
+font-size: 15px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 20px 200px;
+
+}
